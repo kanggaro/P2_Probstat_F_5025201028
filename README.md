@@ -1,5 +1,7 @@
 # P2_Probstat_F_5025201028
 
+M Abror Al Qushoyyi | 5025201028 | Probstat F
+
 ## Soal 1
 
 Langkah pertama lakukan penginstalan seperti berikut
