@@ -19,33 +19,22 @@ miud <- sum(diff - rat)
 
 t.test(y, x, paired=TRUE)
 
-# c)
-
-#Karena p-value di bawah nilai signifikan (0.005), maka h0:""tidak ada pengaruh
-# yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum 
-# dan sesudah melakukan aktivitas", sehingga kesimpulannya adalah tidak ada
-# pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen
-
-#nomor 2
+#nomor 2 ---------------------------------------------
 zsum.test(mean.x = 23500, sigma.x = 3900, n.x = 100, alternative = "greater",
           mu = 0,conf.level = 0.95)
 
-# a)
-# setuju, karena p-value kurang dari 0.05, sehingga h0 (rata-rata <= 20000) ditolak
+# nomor 3 ---------------------------------------------
 
-# b)
-# maksud dari output yang dihasilkan adalah...
+# soal 3b 
+# Hitung Sampel Statistik
+tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, 
+          mean.y =2.79 , s.y = 1.32, n.y = 27, 
+          alternative = "greater", var.equal = TRUE)
 
-# c)
-# kesimpulannya adalah klaim bahwa rata-rata penggunaan mobil adalah lebih dari 20000 kilometer per tahun adalah benar, karena p-value kurang dari 0.05 sehingga h0 ditolak.
-
-# nomor 3
-
-
-#nomor 4
+# nomor 4 ---------------------------------------------
 
 
-# nomor 5
+# nomor 5 ---------------------------------------------
 library(dplyr)
 library(multcompView)
 
