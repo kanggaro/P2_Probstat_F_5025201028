@@ -42,44 +42,8 @@ zsum.test(mean.x = 23500, sigma.x = 3900, n.x = 100, alternative = "greater",
 # nomor 3
 
 
-# nomor 3
-
 #nomor 4
-# a)
-my_data <- read.delim(file.choose())
 
-my_data$Group <- as.factor(my_data$Group)
-my_data$Group = factor(my_data$Group, labels = c("grup1", "grup2", "grup3"))
-
-grup1 <- subset(my_data, Group == "grup1")
-grup2 <- subset(my_data, Group == "grup2")
-grup3 <- subset(my_data, Group == "grup3")
-
-qqnorm(grup1$Length)
-qqnorm(grup2$Length)
-qqnorm(grup3$Length)
-
-# berdasarkan plot kuantil normal di atas, tidak ditemukan outlier utama pada homogenitas varians
-
-# b)
-bartlett.test(Length ~ Group, data = my_data)
-
-# c)
-model1 <- aov(Length ~ Group, data = my_data)
-summary(model1)
-
-# d)
-# nilai p adalah 0.0013 dimana kurang dari 0.005, sehingga h0 ditolak
-
-# e)
-TukeyHSD(model1)
-
-# f)
-library("ggplot2")
-
-ggplot(my_data, aes(x = Group, y = Length)) + 
-  geom_boxplot(fill = "white", colour = "black") + 
-  scale_x_discrete() + xlab("Group") + ylab("Length")
 
 # nomor 5
 library(dplyr)
