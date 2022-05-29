@@ -73,6 +73,23 @@ Hasil Soal 1, C
 ![image](https://user-images.githubusercontent.com/90663373/170871864-65f8a72b-dee6-4f3d-b591-13d883ed5dcf.png)
 
 ## Soal 2
+Diketahui jumlah sample 100, rata-rata 23500, dan standart deviasi 3900
+klaim : mobil dikemudikan rata-rata lebih dari 20000 kilometer pertahun
+
+#### A2
+berdasarkan uji z :
+![image](https://user-images.githubusercontent.com/90663373/170877149-34c4cf52-d13a-495a-ade2-2d17f5baff87.png)
+didapatkan :
+![image](https://user-images.githubusercontent.com/90663373/170877166-0c950cbd-c7b6-401b-8bb7-f87bcfc5b893.png)
+
+dari hasil tersebut, p-value kurang dari 0.005, shingga H0(rata-rata kurang dari sama dengan 20000 km)ditolak
+
+#### B2
+maksud yang dihasilkan dari output diatas z hitung adalah 60.256, Dari nilai z tersebut didapat p value < 2.2*10^-16. Dengan persentase confidence 95% adalah 22858.51
+
+#### C2
+sehingga didapatkan kesimpulan yg didapatkan karena P-Value signifikan(0.005), maka H0 ditolak. Maka klaim rata-rata mobil yang dikenudikan kurang dari 20000 km per tahun adalah benar.
+
 ## Soal 3
 #### A3
 H0 dan H1 dilakukan perhitungan 
@@ -110,4 +127,35 @@ Teori keputusan adalah teori formal pengambilan keputusan di bawah ketidakpastia
 
 #### F3
 didapatkan kesimpulan yaitu perbedaan rata-rata yang terjadi tidak ada jika dilihat dari uji statistik dan akan ada tetapi tidak signifikan jika dipengaruhi nilai kritikal
+
+## Soal 4
+
+## Soal 5
+#### A5
+Plot sederhana
+
+![image](https://user-images.githubusercontent.com/90663373/170877818-22b5b760-c6f2-48c3-995f-54e5f72720d4.png)
+
+
+#### B5
+Uji Anova dua arah
+
+![image](https://user-images.githubusercontent.com/90663373/170877547-249d752a-10fc-4495-8dba-38e9a75ec146.png)
+
+#### C5
+mean dan standart deviasi keluaran cahaya untuk setiap perlakuan didapatkan sebagai berikut
+
+![image](https://user-images.githubusercontent.com/90663373/170877638-62b6a1d5-852f-459a-9d74-d08f497ba4a8.png)
+
+#### D5
+Uji Tukey
+
+![image](https://user-images.githubusercontent.com/90663373/170877656-c328098a-805c-49a6-8b06-7839bfb0b656.png)
+
+#### E5
+compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan Uji Tukey
+
+![image](https://user-images.githubusercontent.com/90663373/170877754-f0bfdd0b-0c29-45a7-ae4a-6675a6c76804.png)
+
+
 
